@@ -1,0 +1,116 @@
+html{
+    background-image: url('http://i.imgur.com/kTNbC5t.jpg');
+    opacity: 0,6;
+}
+
+table{
+    margin-left: 420px;
+    background: lightgrey;
+    border-collapse: collapse;
+    border: 10px solid black;
+    border-left: 10px dashed black;
+    border-right: 10px dashed black;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 80px;
+    font-family:'Sansita', sans-serif;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#search{
+    background-color: lightgrey;
+    border-radius: 12px;
+    border: 3px dashed #282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    cursor: pointer;
+}
+
+#searchDiv{
+    margin-left: 400px;
+    margin-top: -50px;
+}
+
+#previous{
+    background-color: lightgrey;
+    border-radius: 12px;
+    border: 3px dashed#282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    cursor: pointer;
+}
+
+#next{
+    background-color: lightgrey;
+    border-radius: 12px;
+    border: 3px dashed #282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    float: right;
+    cursor: pointer;
+}
+
+#sortTitle{
+    background-color: lightgrey;
+    color: #282828;
+    border-radius: 12px;
+    border: 3px dashed #282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    float: left;
+    margin-left: 300px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sortTitle:hover{
+    background-color: #282828;
+    color: lightgrey;
+}
+
+#sortYear{
+    background-color: lightgrey;
+    color: #282828;
+    border-radius: 12px;
+    border: 3px dashed #282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    float: right;
+    margin-right: 300px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sortYear:hover{
+    background-color: #282828;
+    color: lightgrey;
+}
+
+#rank{
+    margin-left: 100px;
+    text-align: center;
+}
+
+#sortRank{
+    background-color: lightgrey;
+    color: #282828;
+    border-radius: 12px;
+    border: 3px dashed #282828;
+    font-size: 35px;
+    font-family: 'Sansita', sans-serif;
+    right: 20%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sortRank:hover{
+    background-color: #282828;
+    color: lightgrey;
+}

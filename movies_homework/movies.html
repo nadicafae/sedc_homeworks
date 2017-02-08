@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="movies.css">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <title>Movies</title>
+</head>
+<body>
+    <button id="previous">Previous page</button>
+    <button id="next">Next page</button>
+    <br>
+    <button id="sortTitle">Title</button>
+    <button id="sortYear">Year</button>
+    <br>
+    <div id="rank">
+    <button id="sortRank">Rating</button>
+    </div>
+    <br>
+    <h1 class="title">Top 250 movies on <span style = "color:black">IMDB</span> </h1> 
+    <br>
+    <div id="searchDiv">   
+        <input style="height: 50px; width: 500px; font-size: 1cm; border-radius: 8px; border: 2px solid grey" type="search" id="searchMovie">
+        <button type="submit" id="search">Search</button>
+    </div>
+    <br>
+     <table border="1">
+        <thead id="head">
+            <th >Image</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rating</th>
+        </thead>
+        <tbody id="movies">
+        </tbody>
+    </table>
+
+    <div id="number"></div>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="movies_script.js"></script>
+</body>
+</html>
