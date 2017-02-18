@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Musaka",
+        "origin": "Romaija",
+        "sostojki": {
+            "jajca": "6 jajca",
+            "brasno": "0.5 kg"
+        }
+    },
+    {
+        "name": "Pica",
+        "origin": "Italija",
+        "sostojki": {
+            "jajca": "3 jajca",
+            "brasno": "0.2 kg"
+        }
+    },
+    {
+        "name": "Lazanji",
+        "origin": "Italija",
+        "sostojki": {
+            "jajca": "7 jajca",
+            "brasno": "1 kg"
+        }
+    }
+]

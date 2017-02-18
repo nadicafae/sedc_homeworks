@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мала Кујничка</title>
+    <link rel="stylesheet" href="recepti.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+</head>
+<body>
+    <h1 id="header">Little Kitchen</h1>
+    <br> <br>
+    <div class = "input-group">
+        <span class="input-group-addon" id="basic-addon1">Име на рецептот</span>
+        <input type="text" class="form-control" aria-describedby="basic-addon1" id="imeRec">
+    </div>
+    <br>
+    <table border="1" class="table-bordered" id="table">
+        <thead>
+            <tr>
+                <th id="tabelaIme">Име на рецептот</th>
+                <th id="tabelaPoteklo">Потекло на рецептот</th>
+                <th id="tabelaSostojki">Состојки</th>
+                <th id="tabelaNacin">Начин на подготовка</th>
+            </tr>
+        </thead>
+        <tbody id="receptiBody">
+        </tbody>
+    </table>
+    <div class = "input-group">
+        <span class="input-group-addon" id="basic-addon2">Потекло на рецептот</span>
+        <input type="text" class = "form-control" aria-describedby="basic-addon2" id="potekloRec">
+    </div>
+    
+    <br>
+    <div class="dropdown">
+        <select name="" id="sostojki">
+            </select> <input type="text" placeholder="Количина" id="kolicina"> <button type="button" class="btn btn-default" id="dodajSostojka">Додај состојка</button>
+    </div>
+    <div class="list">
+        <ul id="lista-sostojki">
+
+        </ul>
+    </div>
+    <br>
+    <textarea name="podgotovka" id="podgotovka" rows="10" class="form-control" placeholder="Начин на подготовка"></textarea>
+    <br>
+    <button type="button" class="btn btn-default" id="dodajRecept">Додај рецепт</button>
+
+
+
+
+
+
+
+
+    
+    <script src="recepti.js"></script>
+    <script src="receptiTabela.js"></script>
+</body>
+</html>

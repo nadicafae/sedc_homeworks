@@ -1,0 +1,97 @@
+#header{
+    text-align: left;
+    font-family: 'Caveat Brush', cursive;
+    margin-left: 40px;
+    font-size: 112px;
+    text-shadow: 4px 4px 10px saddlebrown;
+
+
+}
+
+#kolicina{
+    border-radius: 6px;
+    height: 33px;
+    text-align: center;
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+.input-group{
+    width: 395px;
+    margin-left: 40px;
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+button{
+    
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+.dropdown{
+    margin-left: 40px;
+}
+
+li{
+    text-shadow: 1px 1px 2px white;
+}
+
+#sostojki{
+    width: 95px;
+    height: 32px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+#podgotovka{
+    width: 395px;
+    margin-left: 40px;
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+#dodajRecept{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 395px;
+    box-shadow: 4px 4px 10px saddlebrown;
+}
+
+table{
+    float: right;
+    margin-right: 40px;
+    border: 2px ridge grey;
+    box-shadow: 4px 4px 10px saddlebrown;
+    margin-top: -60px;
+}
+
+#tabelaIme{
+    text-align: center;
+}
+
+#tabelaPoteklo{
+    text-align: center;
+}
+
+#tabelaVreme{
+    width: 90px;
+    text-align: center;
+}
+
+#tabelaSostojki{
+    text-align: center;
+}
+
+#tabelaNacin{
+    width: 250px;
+    text-align: center;
+}
+
+th{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: beige;
+}
+
+body{
+    background-image: url('http://i.imgur.com/81zvchz.jpg');
+    background-color: sandybrown;
+}
