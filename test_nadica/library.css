@@ -1,0 +1,126 @@
+html{
+    background-image: url('http://i.imgur.com/Ldsvapi.jpg');
+}
+
+h1{
+    color:navajowhite;
+    text-shadow: 4px 4px 5px saddlebrown;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 4px 4px 5px #6b3312;
+    font-size: 40px;
+}
+
+#anthologies{
+    float: right;
+    color: white;
+    margin-top: -975px;
+    margin-right: 400px;
+    
+    
+}
+
+#novels{
+    color: white;
+    margin-top: 90px;
+    margin-left: 400px;
+}
+input{
+    font-size: 17px;
+    box-shadow: 4px 4px 5px #6b3312;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+}
+.input-group{
+    width: 400px;
+}
+
+#anthologyStories{
+    width: 292px;
+}
+
+#storyAuthor{
+    width: 292px;
+}
+
+textarea{
+    height: 200px;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 5px #6b3312;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 5px #6b3312;
+}
+
+a{
+    color: navajowhite;
+    text-decoration: none;
+}
+
+a:visited{
+    color: navajowhite;
+    text-decoration: none;
+}
+
+a:hover{
+    color: navajowhite;
+    text-decoration: none;
+}
+
+a:active{
+    color: navajowhite;
+    text-decoration: none;
+}
+
+table{
+    background: wheat;
+    box-shadow: 4px 4px 5px saddlebrown;
+    border-collapse: collapse;
+    border: ridge brown;
+    margin-top: 50px;
+}
+
+th{
+    width: 200px;
+    height: 50px;
+}
+
+#tableYear{
+    width: 65px;
+}
+
+#tablePages{
+    width: 72px;
+}
+
+#tableReview{
+    width: 350px;
+}
+
+#tableSeriesNum{
+    width: 60px;
+}
+#tableNov{
+    margin-left: 160px;
+}
+
+#tableAnt{
+    margin-left: 190px;
+}
+
+#next{
+    float: right;
+}
+
+#sort{
+    margin-left: 400px;
+}

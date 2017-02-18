@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" style="opacity: 0,4;">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+    <h1>Your favorite library</h1>
+    <div id="novels">
+        <h2><a href="novels.html" target="_blank">Novels</a></h2> 
+        <div class="input-group">
+            <span>Title of the novel</span> <br> <input type="text" id="novelName">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Author of the novel</span> <br> <input type="text" id="novelAuthor">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Publisher of the novel</span> <br> <input type="text" id="novelPublisher">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Year of publication</span> <br> <input type="number" id="publicationYearNovel">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Number of pages</span> <br> <input type="number" id="pagesNumNov">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Name of series</span> <br> <input type="text" id="seriesName" placeholder="Fill only if the book belongs to any series">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Number of book</span> <br> <input type="number" id="seriesNum" placeholder="Number of the book in the series">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>ISBN</span> <br> <input type="text" id="isbnNov" maxlength="13">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Review</span> <br> <textarea id="reviewNov" placeholder="Write a short review"></textarea>
+        </div>
+        <br>
+        <button id="submitNovel">Submit novel</button>
+    </div>
+    <div id="anthologies">
+        <h2><a href="anthologies.html" target="_blank">Anthologies</a></h2>
+        <div class="input-group">
+            <span>Title of the anthology</span> <br> <input type="text" id="anthologyName">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Editor of the anthology</span> <br> <input type="text" id="anthologyEditor">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Publisher of the anthology</span> <br> <input type="text" id="anthologyPublisher">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Year of publication</span> <br> <input type="number" id="publicationYearAnthology">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Number of pages</span> <br> <input type="number" id="pagesNumAnt">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Story</span> <br> <input type="text" id="anthologyStories" placeholder="Stories included in the anthology"> <br>
+            <span>Author</span> <br> <input type="text" id="storyAuthor" placeholder="Author of the story">
+            <button id="addStory">Add story</button> 
+        </div>
+        <br>
+        <div class="storyList">
+            <ul id="storyList">
+
+            </ul>
+        </div>
+        <div class="input-group">
+            <span>ISBN</span> <br> <input type="text" id="isbnAnt" maxlength="13">
+        </div>
+        <br>
+        <div class="input-group">
+            <span>Review</span> <br> <textarea id="reviewAnt" placeholder="Write a short review"></textarea>
+        </div>
+        <br>
+        <button id="submitAnthology">Submit anthology</button>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="library.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

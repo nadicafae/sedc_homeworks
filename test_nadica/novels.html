@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novels</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <!-- копчињата уште немаат eventListener-и -->
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
+    <br> <br>
+    <button id="sort">Title</button>
+    <button id="sort">Author</button>
+    <button id="sort">Year</button>
+    <br>
+    <table border="1" class="table-bordered" id="tableNov">
+        <thead>
+            <tr>
+                <th id="tableTitle">Title</th>
+                <th id="tableAuthor">Author</th>
+                <th id="tablePublisher">Publisher</th>
+                <th id="tableYear">Year of publication</th>
+                <th id="tablePages">Number of pages</th>
+                <th id="tableSeries">Series</th>
+                <th id="tableSeriesNum">Number of the book</th>
+                <th id="tableISBN">ISBN</th>
+                <th id="tableReview">Review</th>
+            </tr>
+        </thead>
+        <tbody id="tableNovels">
+        </tbody>
+    </table>
+
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script src="library.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
