@@ -172,6 +172,175 @@ $(()=>{
                     <td>${anthology.review}</td>
                 </tr>`)
         })
+    
+    //UPDATE
+    
+            //сортирање novels 
+
+ let sortedNovels = [];
+
+    $("#sortTitleN").on("click", ()=>{
+        sortedNovels = submitedNovels.sort((a, b) => 
+        {if(a.title < b.title)
+                    return -1;
+                else if(a.title > b.title)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedNovels);
+        sortedNovels.forEach(novel =>{
+        tableNov.replaceWith(`<tr>
+                    <td>${novel.title}</td>
+                    <td>${novel.author}</td>
+                    <td>${novel.publisher}</td>
+                    <td>${novel.yearOfPubl}</td>
+                    <td>${novel.pagesNum}</td>
+                    <td>${novel.seriesName}</td>
+                    <td>${novel.seriesNum}</td>
+                    <td>${novel.isbn}</td>
+                    <td>${novel.review}</td>
+                </tr>`)
+        })
+    })
+
+    $("#sortAuthorN").on("click", ()=>{
+        sortedNovels = submitedNovels.sort((a, b) => 
+        {if(a.author < b.author)
+                    return -1;
+                else if(a.author > b.author)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedNovels);
+        sortedNovels.forEach(novel =>{
+        tableNov.replaceWith(`<tr>
+                    <td>${novel.title}</td>
+                    <td>${novel.author}</td>
+                    <td>${novel.publisher}</td>
+                    <td>${novel.yearOfPubl}</td>
+                    <td>${novel.pagesNum}</td>
+                    <td>${novel.seriesName}</td>
+                    <td>${novel.seriesNum}</td>
+                    <td>${novel.isbn}</td>
+                    <td>${novel.review}</td>
+                </tr>`)
+        })
+    })
+
+    $("#sortYearN").on("click", ()=>{
+        sortedNovels = submitedNovels.sort((a, b) => 
+        {if(a.yearOfPubl < b.yearOfPubl)
+                    return -1;
+                else if(a.yearOfPubl > b.yearOfPubl)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedNovels);
+        sortedNovels.forEach(novel =>{
+        tableNov.replaceWith(`<tr>
+                    <td>${novel.title}</td>
+                    <td>${novel.author}</td>
+                    <td>${novel.publisher}</td>
+                    <td>${novel.yearOfPubl}</td>
+                    <td>${novel.pagesNum}</td>
+                    <td>${novel.seriesName}</td>
+                    <td>${novel.seriesNum}</td>
+                    <td>${novel.isbn}</td>
+                    <td>${novel.review}</td>
+                </tr>`)
+        })
+    }) 
+
+
+    //сортирање anthologies
+
+    let sortedAnthologies = [];
+
+    $("#sortTitleA").on("click", ()=>{
+        sortedAnthologies = submitedAnthologies.sort((a, b) => 
+        {if(a.title < b.title)
+                    return -1;
+                else if(a.title > b.title)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedAnthologies);
+        sortedAnthologies.forEach(anthology =>{
+        tableAnt.replaceWith(`<tr>
+                    <td>${anthology.title}</td>
+                    <td>${anthology.editor}</td>
+                    <td>${anthology.publisher}</td>
+                    <td>${anthology.yearOfPubl}</td>
+                    <td>${anthology.pagesNum}</td>
+                    <td>${anthology.stories}</td>
+                    <td>${anthology.isbn}</td>
+                    <td>${anthology.review}</td>
+                </tr>`)
+        })
+
+    })
+
+    $("#sortEditorA").on("click", ()=>{
+        sortedAnthologies = submitedAnthologies.sort((a, b) => 
+        {if(a.editor < b.editor)
+                    return -1;
+                else if(a.editor > b.editor)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedAnthologies);
+        sortedAnthologies.forEach(anthology =>{
+        tableAnt.replaceWith(`<tr>
+                    <td>${anthology.title}</td>
+                    <td>${anthology.editor}</td>
+                    <td>${anthology.publisher}</td>
+                    <td>${anthology.yearOfPubl}</td>
+                    <td>${anthology.pagesNum}</td>
+                    <td>${anthology.stories}</td>
+                    <td>${anthology.isbn}</td>
+                    <td>${anthology.review}</td>
+                </tr>`)
+        })
+
+    })
+
+    $("#sortYearA").on("click", ()=>{
+        sortedAnthologies = submitedAnthologies.sort((a, b) => 
+        {if(a.yearOfPubl < b.yearOfPubl)
+                    return -1;
+                else if(a.yearOfPubl > b.yearOfPubl)
+                    return 1;
+                else
+                return 0;
+            
+    })
+        console.log(sortedAnthologies);
+        sortedAnthologies.forEach(anthology =>{
+        tableAnt.replaceWith(`<tr>
+                    <td>${anthology.title}</td>
+                    <td>${anthology.editor}</td>
+                    <td>${anthology.publisher}</td>
+                    <td>${anthology.yearOfPubl}</td>
+                    <td>${anthology.pagesNum}</td>
+                    <td>${anthology.stories}</td>
+                    <td>${anthology.isbn}</td>
+                    <td>${anthology.review}</td>
+                </tr>`)
+        })
+
+    })
+    
+     //replaceWith() го враќа само првиот податок во табела
 
 })
 
