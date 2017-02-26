@@ -18,16 +18,20 @@ h2{
 #anthologies{
     float: right;
     color: white;
-    margin-top: -975px;
-    margin-right: 400px;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    margin-bottom: 20px;
     
     
 }
 
 #novels{
     color: white;
-    margin-top: 90px;
-    margin-left: 400px;
+    top: 200px;
+    margin-bottom: 20px;
+    left: 200px;
+    position: absolute;
 }
 input{
     font-size: 17px;
@@ -86,7 +90,11 @@ table{
     box-shadow: 4px 4px 5px saddlebrown;
     border-collapse: collapse;
     border: ridge brown;
-    margin-top: 50px;
+    top: 150px;
+    right: 110px;
+    left: -90px;
+    position: absolute;
+
 }
 
 th{
@@ -121,6 +129,17 @@ th{
     float: right;
 }
 
-#sort{
-    margin-left: 400px;
+.sortTitle{
+    left: 350px;
+    position: absolute;
+}
+
+.sortAuthor{
+    left: 610px;
+    position: absolute;
+}
+
+.sortYear{
+    left: 900px;
+    position: absolute;
 }
